@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Get Audience Size
+  description: Get Audience Size
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,27 +19,27 @@ paths:
       description: Get Audience Size
       operationId: timeagginterval
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Unique identifier for the account
         type: string
-      - in: String
+      - in: query
         name: endDate
         description: The end date
         type: string
-      - in: Number
+      - in: query
         name: eventId
         description: Unique identifier for the event
         type: string
-      - in: String
+      - in: query
         name: reportPackID
         description: Unique numeric identifier for the report pack
         type: string
-      - in: String
+      - in: query
         name: startDate
         description: The start date
         type: string
-      - in: Number
+      - in: query
         name: timeAggInterval
         description: Defaults to 60 minutes
         type: string
