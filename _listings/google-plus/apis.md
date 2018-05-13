@@ -39,6 +39,26 @@ x-common:
   url: https://developers.google.com/+/web/terms
 - type: x-website
   url: https://plus.google.com/
+- type: x-badges
+  url: https://developers.google.com/+/web/badge/
+- type: x-buttons
+  url: https://developers.google.com/+/web/+1button/
+- type: x-change-log
+  url: https://developers.google.com/+/web/release-notes
+- type: x-code
+  url: https://developers.google.com/+/web/samples/javascript
+- type: x-developer
+  url: https://developers.google.com/+/web/api/rest/
+- type: x-documentation
+  url: https://developers.google.com/+/web/api/rest/latest/
+- type: x-issues
+  url: https://code.google.com/p/google-plus-platform/
+- type: x-support
+  url: https://developers.google.com/+/web/support
+- type: x-terms-of-service
+  url: https://developers.google.com/+/web/terms
+- type: x-website
+  url: https://plus.google.com/
 include: []
 maintainers:
 - FN: Kin Lane
